@@ -5,10 +5,7 @@
 <p>Objective: Pong game. </p>
 <h2>Problem Set 1</h2>
 <p>Language: C </p>
-<p>Objective: 
-<li>
-<ul>Water consumption in number of bottles </ul>
-<ul>Mario piramid. </ul>
-<ul>Greedy cashier algorithm </ul>
-</li>
-</p>
+<p>Objective: Water consumption per bottles. Mario pyramid. Greedy cashier algorithm. </p>
+<h2>Problem Set 2</h2>
+<p>Language: C </p>
+<p>Objective: Initials of someone's name. Caesar cipher. Vigenere cipher. </p>
