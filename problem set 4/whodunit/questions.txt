@@ -1,0 +1,23 @@
+1.  stdint.h allows you to use your code more universally on any system enviroment where you cannot rely on basic types like int or long long.
+The library contains new definitions of integer types. With them you can be more specific.
+2.  When we use the standard integer we do not know what size it will have on the given system. In that case we use for example uint8_t to specify
+that the int has to always be 8 bits long.
+3.  BYTE - 8 bits - 1 byte
+    DWORD - 32 bits - 4 bytes
+    LONG - signed 32 bits - 4 bytes
+    WORD - 16 bits - 2 bytes
+4.  hex - 0x424d
+    ASCII - BM
+    Value stored in bfType.
+5.  bfSize - total number of bytes in the file
+    biSize - total number of bytes in the info header.
+6.  If the biHeight is positive, the bitmap is bottom-up DIB with the orgin at the lower left corner. If biHeight is negative, the
+bitmap is a top-down DIB with the origin at the upper left corner.
+7.  biBitCount
+8.  When the file does not exist.
+9.  Because it specifies how many elements you want to read.
+10. The padding would be 3.
+11. It moves to a specific location in a file.
+12. An integer constant which, when used as the 'whence' argument to the
+fseek or fseeko function, specifies that the offset provided is relative to
+the current file position.
